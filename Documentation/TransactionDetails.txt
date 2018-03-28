@@ -1,0 +1,25 @@
+Saif authorizes Rahul :
+AuthorizeAccess Transaction:
+{
+  "$class": "org.cse.piinet.AuthorizeAccess",
+  "memberId": "rahulamin@gmail.com",
+  "timestamp": "2018-03-23T21:32:14.048Z"
+}
+
+
+Saif Requesting Info of Rahul :
+{
+  "$class": "org.cse.piinet.GetData",
+  "RequestingMember": "resource:org.cse.piinet.Member#crossfire.saif@gmail.com",
+  "RequestedAsset": "resource:org.cse.piinet.Data#02",
+  "timestamp": "2018-03-23T21:47:17.690Z"
+}
+
+
+Rahul Requesting Info of Saif :
+{
+  "$class": "org.cse.piinet.GetData",
+  "RequestingMember": "resource:org.cse.piinet.Member#rahulamin@gmail.com",
+  "RequestedAsset": "resource:org.cse.piinet.Data#01",
+  "timestamp": "2018-03-23T21:47:17.690Z"
+}

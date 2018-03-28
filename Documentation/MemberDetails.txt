@@ -1,0 +1,86 @@
+MEMBER 1 : Saif
+Member data:
+{
+  "$class": "org.cse.piinet.Member",
+  "email": "crossfire.saif@gmail.com",
+  "authorized": [],
+  "dump": ""
+}
+
+{
+  "$class": "org.cse.piinet.Member",
+  "email": "crossfire.saif@gmail.com",
+  "pii": "resource:org.cse.piinet.Data#01",
+  "authorized": [],
+  "dump": ""
+}
+Identity issue data : 
+{
+  "participant": "resource:org.cse.piinet.Member#crossfire.saif@gmail.com",
+  "userID": "saif",
+  "options": {}
+}
+
+Data Asset data:
+{
+    "$class": "org.cse.piinet.Data",
+    "assetId": "01",
+    "owner": "resource:org.cse.piinet.Member#crossfire.saif@gmail.com",
+    "firstName": "Saif",
+    "lastName": "Ali",
+    "address": {
+        "$class": "org.cse.piinet.Address",
+        "street": "Gora Chand Lane",
+        "house": "5/1A",
+        "city": "Kolkata",
+        "county": "WB",
+        "country": "India",
+        "zip": "700014",
+        "id": "01"
+    },
+    "dob": "1995-09-17T07:48:38.324Z"
+}
+
+MEMBER 2 : Rahul
+Member data:
+{
+  "$class": "org.cse.piinet.Member",
+  "email": "rahulamin@gmail.com",
+  "authorized": [],
+  "dump": ""
+}
+
+{
+  "$class": "org.cse.piinet.Member",
+  "email": "rahulamin@gmail.com",
+  "pii": "resource:org.cse.piinet.Data#02",
+  "authorized": [],
+  "dump": ""
+}
+
+Identity issue data : 
+{
+  "participant": "resource:org.cse.piinet.Member#rahulamin@gmail.com",
+  "userID": "rahul",
+  "options": {}
+}
+
+Data Asset data:
+{
+    "$class": "org.cse.piinet.Data",
+    "assetId": "02",
+    "owner": "resource:org.cse.piinet.Member#rahulamin@gmail.com",
+    "firstName": "Rahul",
+    "lastName": "Amin",
+    "address": {
+        "$class": "org.cse.piinet.Address",
+        "street": "VijayashreePura",
+        "house": "210",
+        "city": "Mysore",
+        "county": "Karnataka",
+        "country": "India",
+        "zip": "570006",
+        "id": "02"
+    },
+    "dob": "1995-10-17T07:48:38.324Z"
+}

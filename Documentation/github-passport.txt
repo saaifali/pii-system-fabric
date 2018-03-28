@@ -1,0 +1,20 @@
+Client ID
+0bfef8b91cf7d35f4162
+Client Secret
+c89197d3d2eb667fbc86b49f64c99ebcc5648f0c
+
+
+
+Set the following environment variable :
+export COMPOSER_PROVIDERS='{
+  "github": {
+    "provider": "github",
+    "module": "passport-github",
+    "clientID": "0bfef8b91cf7d35f4162",
+    "clientSecret": "c89197d3d2eb667fbc86b49f64c99ebcc5648f0c",
+    "authPath": "/auth/github",
+    "callbackURL": "/auth/github/callback",
+    "successRedirect": "/",
+    "failureRedirect": "/"
+  }
+}'
